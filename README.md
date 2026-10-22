@@ -16,11 +16,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 | Processes:                                                                              |
 |  PR#     Type   Process name                                     Memory (lines +/-)     |
 |=========================================================================================|
-|  #239    C      ai-investment-cockpit                                      +37 / -8     |
-|  #275    C      recursion                                                  +35 / -4     |
-|  #274    C      recursion                                                 +139 / -8     |
-|  #238    C      ai-investment-cockpit                                    +244 / -54     |
-|  #237    G      ai-investment-cockpit                                     +31 / -30     |
+|  #245    G      ai-investment-cockpit                                     +36 / -35     |
+|  #244    C      ai-investment-cockpit                                       +0 / -7     |
+|  #236    G      ai-investment-cockpit                                     +46 / -18     |
+|  #243    C      ai-investment-cockpit                                       +7 / -0     |
+|  #242    C      ai-investment-cockpit                                    +420 / -14     |
 +-----------------------------------------------------------------------------------------+
 ```
 <!-- smi:end -->
@@ -34,14 +34,14 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 <!-- csl:start -->
 ```console
 $ tail -f /var/log/csl.log
-[2026-10-21 12:50] ai-investment-cockpit: merged #239 CSL-430: protect the fixer's own test suites and credential filenames
+[2026-10-21 20:13] ai-investment-cockpit: merged #245 docs(CSL-444): contract v2.5: re-pin citations after #239, #242 and #236
+[2026-10-21 19:51] ai-investment-cockpit: merged #244 CSL-377: remove the conflict-trial setup
+[2026-10-21 19:37] ai-investment-cockpit: merged #236 docs(CSL-425): claim records with the coordinator acknowledgement kept (D12)
+[2026-10-21 19:10] ai-investment-cockpit: merged #243 CSL-377: conflict-trial setup for canary PR #227
+[2026-10-21 14:13] ai-investment-cockpit: merged #242 CSL-377: the mention job reads only its triggering comment, bounded
 [2026-10-21 11:32] recursion: merged #275 CSL-378: declare the Exa MCP server; Exa vs Parallel and the cap
 [2026-10-21 11:06] recursion: merged #274 CSL-379: an expired claim is never renewed; report a renewal after expiry
-[2026-10-21 10:55] ai-investment-cockpit: merged #238 CSL-377: stage without the ignored helper dirs or the action's base-branch restores
-[2026-10-21 10:29] ai-investment-cockpit: merged #237 CSL-429: CI event contract v2.3: re-pin citations after #231, #232 and #233
 [2026-10-21 08:40] recursion: merged #269 CSL-416: CI runbook + cross-lane admission tests (CSL-255 criterion 5)
-[2026-10-21 02:08] ai-investment-cockpit: merged #235 docs(CSL-378): declare the Exa MCP server; Exa vs Parallel and the cap
-[2026-10-21 01:51] ai-investment-cockpit: merged #230 docs(CSL-416): CI runbook + cross-lane admission tests (CSL-255 criterion 5)
 ```
 <!-- csl:end -->
 
@@ -61,5 +61,5 @@ $ tail -f /var/log/csl.log
 ---
 
 <!-- updated:start -->
-<sub>Last updated 2026-10-21 14:01 PT by github-actions[bot]</sub>
+<sub>Last updated 2026-10-21 22:00 PT by github-actions[bot]</sub>
 <!-- updated:end -->
