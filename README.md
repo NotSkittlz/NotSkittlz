@@ -16,11 +16,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 | Processes:                                                                              |
 |  PR#     Type   Process name                                     Memory (lines +/-)     |
 |=========================================================================================|
-|  #281    C      recursion                                                +379 / -21     |
-|  #280    G      recursion                                                   +7 / -7     |
-|  #276    C      recursion                                                +441 / -33     |
-|  #245    G      ai-investment-cockpit                                     +36 / -35     |
-|  #244    C      ai-investment-cockpit                                       +0 / -7     |
+|  #283    G      recursion                                                   +3 / -2     |
+|  #251    G      ai-investment-cockpit                                       +0 / -7     |
+|  #249    G      ai-investment-cockpit                                       +7 / -0     |
+|  #248    G      ai-investment-cockpit                                       +0 / -7     |
+|  #246    G      ai-investment-cockpit                                       +7 / -0     |
 +-----------------------------------------------------------------------------------------+
 ```
 <!-- smi:end -->
@@ -34,14 +34,14 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 <!-- csl:start -->
 ```console
 $ tail -f /var/log/csl.log
+[2026-10-22 14:21] recursion: merged #283 CSL-111: PR template defaults to Related to and references the confirmed claim record
+[2026-10-22 14:15] ai-investment-cockpit: merged #251 docs(CSL-377): remove docs/export.md
+[2026-10-22 13:45] ai-investment-cockpit: merged #249 docs(CSL-377): add docs/export.md
+[2026-10-22 12:37] ai-investment-cockpit: merged #248 docs(CSL-377): remove docs/export.md
+[2026-10-22 11:28] ai-investment-cockpit: merged #246 docs(CSL-377): add docs/export.md
+[2026-10-22 10:56] recursion: merged #277 CSL-307: reject non-finite perf_ci env overrides
+[2026-10-22 10:24] recursion: merged #282 CSL-446: a settled loss stands until the loser withdraws (D15)
 [2026-10-22 02:19] recursion: merged #281 CSL-445: report releases without a release v1 record
-[2026-10-22 00:21] recursion: merged #280 docs(CSL-447): contract v2.2: re-pin citations after #275 and #276
-[2026-10-21 23:24] recursion: merged #276 CSL-424: claim records replace assign/unassign (D12)
-[2026-10-21 20:13] ai-investment-cockpit: merged #245 docs(CSL-444): contract v2.5: re-pin citations after #239, #242 and #236
-[2026-10-21 19:51] ai-investment-cockpit: merged #244 CSL-377: remove the conflict-trial setup
-[2026-10-21 19:37] ai-investment-cockpit: merged #236 docs(CSL-425): claim records with the coordinator acknowledgement kept (D12)
-[2026-10-21 19:10] ai-investment-cockpit: merged #243 CSL-377: conflict-trial setup for canary PR #227
-[2026-10-21 14:13] ai-investment-cockpit: merged #242 CSL-377: the mention job reads only its triggering comment, bounded
 ```
 <!-- csl:end -->
 
@@ -61,5 +61,5 @@ $ tail -f /var/log/csl.log
 ---
 
 <!-- updated:start -->
-<sub>Last updated 2026-10-22 05:03 PT by github-actions[bot]</sub>
+<sub>Last updated 2026-10-22 14:43 PT by github-actions[bot]</sub>
 <!-- updated:end -->
