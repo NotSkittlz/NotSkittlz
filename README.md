@@ -16,11 +16,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 | Processes:                                                                              |
 |  PR#     Type   Process name                                     Memory (lines +/-)     |
 |=========================================================================================|
+|  #255    C      ai-investment-cockpit                                      +81 / -7     |
 |  #253    C      ai-investment-cockpit                                      +15 / -5     |
 |  #254    G      ai-investment-cockpit                                      +35 / -1     |
 |  #283    G      recursion                                                   +3 / -2     |
 |  #251    G      ai-investment-cockpit                                       +0 / -7     |
-|  #249    G      ai-investment-cockpit                                       +7 / -0     |
 +-----------------------------------------------------------------------------------------+
 ```
 <!-- smi:end -->
@@ -34,12 +34,12 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 <!-- csl:start -->
 ```console
 $ tail -f /var/log/csl.log
+[2026-10-23 15:11] ai-investment-cockpit: merged #255 test(CSL-426): name the missing settings.json allow rules for a tools test
 [2026-10-23 14:04] ai-investment-cockpit: merged #253 fix(CSL-457): run tests for CLAUDE.md; contract v2.6 G16 correction
 [2026-10-23 12:50] ai-investment-cockpit: merged #254 docs(CSL-462): document per-PR Claude pause for writer collisions
 [2026-10-22 14:21] recursion: merged #283 CSL-111: PR template defaults to Related to and references the confirmed claim record
 [2026-10-22 14:15] ai-investment-cockpit: merged #251 docs(CSL-377): remove docs/export.md
 [2026-10-22 13:45] ai-investment-cockpit: merged #249 docs(CSL-377): add docs/export.md
-[2026-10-22 12:37] ai-investment-cockpit: merged #248 docs(CSL-377): remove docs/export.md
 [2026-10-22 10:56] recursion: merged #277 CSL-307: reject non-finite perf_ci env overrides
 [2026-10-22 10:24] recursion: merged #282 CSL-446: a settled loss stands until the loser withdraws (D15)
 ```
@@ -61,5 +61,5 @@ $ tail -f /var/log/csl.log
 ---
 
 <!-- updated:start -->
-<sub>Last updated 2026-10-23 14:30 PT by github-actions[bot]</sub>
+<sub>Last updated 2026-10-23 21:46 PT by github-actions[bot]</sub>
 <!-- updated:end -->
