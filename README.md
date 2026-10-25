@@ -16,11 +16,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 | Processes:                                                                              |
 |  PR#     Type   Process name                                     Memory (lines +/-)     |
 |=========================================================================================|
-|  #262    C      ai-investment-cockpit                                     +749 / -2     |
-|  #287    C      recursion                                                 +673 / -7     |
-|  #286    G      recursion                                                  +10 / -0     |
-|  #288    C      recursion                                                 +36 / -34     |
-|  #261    G      ai-investment-cockpit                                      +10 / -0     |
+|  #190    C      ai-investment-cockpit                                     +66 / -73     |
+|  #290    C      recursion                                                +160 / -22     |
+|  #260    C      ai-investment-cockpit                                    +588 / -14     |
+|  #258    C      ai-investment-cockpit                                    +219 / -15     |
+|  #256    C      ai-investment-cockpit                                    +710 / -62     |
 +-----------------------------------------------------------------------------------------+
 ```
 <!-- smi:end -->
@@ -34,14 +34,14 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 <!-- csl:start -->
 ```console
 $ tail -f /var/log/csl.log
-[2026-10-24 13:52] ai-investment-cockpit: merged #262 CSL-473: interim E3-1 pin Claude Code 2.1.306 and skip unpinned installer
-[2026-10-24 13:14] recursion: merged #287 fix(CSL-473): interim E3-1 pin Claude Code 2.1.306, skip unpinned bootstrap installer
-[2026-10-24 12:59] recursion: merged #286 CSL-464: link product entry to shared research
-[2026-10-24 12:43] recursion: merged #288 CSL-473: isolate installer python3 from PR checkout
-[2026-10-24 01:57] ai-investment-cockpit: merged #261 CSL-463: link product entry to shared research
-[2026-10-24 01:18] ai-investment-cockpit: merged #259 fix(CSL-471): isolate pip from checkout cwd
-[2026-10-23 15:11] ai-investment-cockpit: merged #255 test(CSL-426): name the missing settings.json allow rules for a tools test
-[2026-10-23 14:04] ai-investment-cockpit: merged #253 fix(CSL-457): run tests for CLAUDE.md; contract v2.6 G16 correction
+[2026-10-24 21:48] ai-investment-cockpit: merged #190 CSL-195: upgrade pyo3 to 0.29
+[2026-10-24 21:20] recursion: merged #290 CSL-479: tool-agnostic research rule and formal GitHub review requests
+[2026-10-24 20:45] ai-investment-cockpit: merged #260 CSL-471: hashed inline pip lock for write-token pip (J6 (4))
+[2026-10-24 20:00] ai-investment-cockpit: merged #258 fix(CSL-467): block GITHUB_ENV file-command writes in conflict-writer
+[2026-10-24 19:45] ai-investment-cockpit: merged #256 fix(CSL-467): block GITHUB_ENV file-command writes in claude.yml
+[2026-10-24 19:21] ai-investment-cockpit: merged #268 docs(CSL-479): tool-agnostic research rule and formal review requests
+[2026-10-24 16:58] recursion: merged #285 CSL-414: B′ deferred final commit built only by the publish job
+[2026-10-24 13:59] recursion: merged #284 CSL-471: isolate pip from PR checkout and pin claude-code-action
 ```
 <!-- csl:end -->
 
@@ -61,5 +61,5 @@ $ tail -f /var/log/csl.log
 ---
 
 <!-- updated:start -->
-<sub>Last updated 2026-10-24 13:57 PT by github-actions[bot]</sub>
+<sub>Last updated 2026-10-24 21:53 PT by github-actions[bot]</sub>
 <!-- updated:end -->
