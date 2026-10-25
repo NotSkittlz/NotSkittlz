@@ -16,11 +16,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 | Processes:                                                                              |
 |  PR#     Type   Process name                                     Memory (lines +/-)     |
 |=========================================================================================|
-|  #298    C      recursion                                                   +5 / -5     |
-|  #277    C      ai-investment-cockpit                                       +4 / -4     |
-|  #264    C      ai-investment-cockpit                                +19014 / -3518     |
-|  #272    C      ai-investment-cockpit                                     +938 / -1     |
-|  #273    C      ai-investment-cockpit                                      +35 / -3     |
+|  #263    C      ai-investment-cockpit                                  +1746 / -201     |
+|  #265    C      ai-investment-cockpit                                  +1234 / -201     |
+|  #274    G      ai-investment-cockpit                                     +338 / -0     |
+|  #295    G      recursion                                                +491 / -19     |
+|  #299    C      recursion                                                   +6 / -4     |
 +-----------------------------------------------------------------------------------------+
 ```
 <!-- smi:end -->
@@ -34,14 +34,14 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 <!-- csl:start -->
 ```console
 $ tail -f /var/log/csl.log
+[2026-10-25 13:56] ai-investment-cockpit: merged #263 feat(CSL-474): E2 reconstruct-never-copy sandbox filter
+[2026-10-25 13:38] ai-investment-cockpit: merged #265 feat(CSL-474): E1 static launcher, capture daemon, and fd-2 relay
+[2026-10-25 13:33] ai-investment-cockpit: merged #274 docs(CSL-511): propose SUCCESSOR-PRODUCT 2026-10-24 amendment
+[2026-10-25 13:24] recursion: merged #295 CSL-494: propose 2026-10-24 spec amendment (RP0)
+[2026-10-25 13:15] recursion: merged #299 CSL-479: run linear-pr-sync on pull_request_target
 [2026-10-25 01:18] recursion: merged #298 CSL-479: founder co-owners on CODEOWNERS protected paths
 [2026-10-25 01:17] ai-investment-cockpit: merged #277 chore(CSL-479): add founder co-owners on protected CODEOWNERS paths
 [2026-10-25 00:50] ai-investment-cockpit: merged #264 feat(CSL-474): E3-0-early prefix on claude-mention
-[2026-10-24 23:56] ai-investment-cockpit: merged #272 CSL-474: add P9 probe workflow to main (dispatch-only)
-[2026-10-24 22:56] ai-investment-cockpit: merged #273 CSL-491: run linux tests on AGENTS.md and proceed-or-escalate skill
-[2026-10-24 22:34] recursion: merged #292 CSL-336: incremental replay kernel reduce()
-[2026-10-24 21:20] recursion: merged #290 CSL-479: tool-agnostic research rule and formal GitHub review requests
-[2026-10-24 20:45] ai-investment-cockpit: merged #260 CSL-471: hashed inline pip lock for write-token pip (J6 (4))
 ```
 <!-- csl:end -->
 
@@ -61,5 +61,5 @@ $ tail -f /var/log/csl.log
 ---
 
 <!-- updated:start -->
-<sub>Last updated 2026-10-25 04:43 PT by github-actions[bot]</sub>
+<sub>Last updated 2026-10-25 13:57 PT by github-actions[bot]</sub>
 <!-- updated:end -->
