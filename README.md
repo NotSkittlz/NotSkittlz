@@ -16,11 +16,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 | Processes:                                                                              |
 |  PR#     Type   Process name                                     Memory (lines +/-)     |
 |=========================================================================================|
-|  #190    C      ai-investment-cockpit                                     +66 / -73     |
-|  #290    C      recursion                                                +160 / -22     |
-|  #260    C      ai-investment-cockpit                                    +588 / -14     |
-|  #258    C      ai-investment-cockpit                                    +219 / -15     |
-|  #256    C      ai-investment-cockpit                                    +710 / -62     |
+|  #298    C      recursion                                                   +5 / -5     |
+|  #277    C      ai-investment-cockpit                                       +4 / -4     |
+|  #264    C      ai-investment-cockpit                                +19014 / -3518     |
+|  #272    C      ai-investment-cockpit                                     +938 / -1     |
+|  #273    C      ai-investment-cockpit                                      +35 / -3     |
 +-----------------------------------------------------------------------------------------+
 ```
 <!-- smi:end -->
@@ -34,14 +34,14 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 <!-- csl:start -->
 ```console
 $ tail -f /var/log/csl.log
-[2026-10-24 21:48] ai-investment-cockpit: merged #190 CSL-195: upgrade pyo3 to 0.29
+[2026-10-25 01:18] recursion: merged #298 CSL-479: founder co-owners on CODEOWNERS protected paths
+[2026-10-25 01:17] ai-investment-cockpit: merged #277 chore(CSL-479): add founder co-owners on protected CODEOWNERS paths
+[2026-10-25 00:50] ai-investment-cockpit: merged #264 feat(CSL-474): E3-0-early prefix on claude-mention
+[2026-10-24 23:56] ai-investment-cockpit: merged #272 CSL-474: add P9 probe workflow to main (dispatch-only)
+[2026-10-24 22:56] ai-investment-cockpit: merged #273 CSL-491: run linux tests on AGENTS.md and proceed-or-escalate skill
+[2026-10-24 22:34] recursion: merged #292 CSL-336: incremental replay kernel reduce()
 [2026-10-24 21:20] recursion: merged #290 CSL-479: tool-agnostic research rule and formal GitHub review requests
 [2026-10-24 20:45] ai-investment-cockpit: merged #260 CSL-471: hashed inline pip lock for write-token pip (J6 (4))
-[2026-10-24 20:00] ai-investment-cockpit: merged #258 fix(CSL-467): block GITHUB_ENV file-command writes in conflict-writer
-[2026-10-24 19:45] ai-investment-cockpit: merged #256 fix(CSL-467): block GITHUB_ENV file-command writes in claude.yml
-[2026-10-24 19:21] ai-investment-cockpit: merged #268 docs(CSL-479): tool-agnostic research rule and formal review requests
-[2026-10-24 16:58] recursion: merged #285 CSL-414: B′ deferred final commit built only by the publish job
-[2026-10-24 13:59] recursion: merged #284 CSL-471: isolate pip from PR checkout and pin claude-code-action
 ```
 <!-- csl:end -->
 
@@ -61,5 +61,5 @@ $ tail -f /var/log/csl.log
 ---
 
 <!-- updated:start -->
-<sub>Last updated 2026-10-24 21:53 PT by github-actions[bot]</sub>
+<sub>Last updated 2026-10-25 04:43 PT by github-actions[bot]</sub>
 <!-- updated:end -->
