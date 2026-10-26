@@ -16,11 +16,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 | Processes:                                                                              |
 |  PR#     Type   Process name                                     Memory (lines +/-)     |
 |=========================================================================================|
+|  #280    C      ai-investment-cockpit                                +1743 / -15659     |
+|  #276    C      ai-investment-cockpit                                    +259 / -44     |
+|  #278    C      ai-investment-cockpit                                    +237 / -77     |
 |  #263    C      ai-investment-cockpit                                  +1746 / -201     |
 |  #265    C      ai-investment-cockpit                                  +1234 / -201     |
-|  #274    G      ai-investment-cockpit                                     +338 / -0     |
-|  #295    G      recursion                                                +491 / -19     |
-|  #299    C      recursion                                                   +6 / -4     |
 +-----------------------------------------------------------------------------------------+
 ```
 <!-- smi:end -->
@@ -34,14 +34,14 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 <!-- csl:start -->
 ```console
 $ tail -f /var/log/csl.log
+[2026-10-25 19:59] ai-investment-cockpit: merged #280 fix(CSL-474): extract claude.yml inlines under GitHub 500KB limit
+[2026-10-25 14:41] ai-investment-cockpit: merged #276 docs(CSL-533): land research in csl-research, not this repo
+[2026-10-25 14:19] ai-investment-cockpit: merged #278 CSL-474: Probe 2 hooked-trial auth and AGENTS.md toggle
 [2026-10-25 13:56] ai-investment-cockpit: merged #263 feat(CSL-474): E2 reconstruct-never-copy sandbox filter
 [2026-10-25 13:38] ai-investment-cockpit: merged #265 feat(CSL-474): E1 static launcher, capture daemon, and fd-2 relay
-[2026-10-25 13:33] ai-investment-cockpit: merged #274 docs(CSL-511): propose SUCCESSOR-PRODUCT 2026-10-24 amendment
 [2026-10-25 13:24] recursion: merged #295 CSL-494: propose 2026-10-24 spec amendment (RP0)
 [2026-10-25 13:15] recursion: merged #299 CSL-479: run linear-pr-sync on pull_request_target
 [2026-10-25 01:18] recursion: merged #298 CSL-479: founder co-owners on CODEOWNERS protected paths
-[2026-10-25 01:17] ai-investment-cockpit: merged #277 chore(CSL-479): add founder co-owners on protected CODEOWNERS paths
-[2026-10-25 00:50] ai-investment-cockpit: merged #264 feat(CSL-474): E3-0-early prefix on claude-mention
 ```
 <!-- csl:end -->
 
@@ -61,5 +61,5 @@ $ tail -f /var/log/csl.log
 ---
 
 <!-- updated:start -->
-<sub>Last updated 2026-10-25 13:57 PT by github-actions[bot]</sub>
+<sub>Last updated 2026-10-25 21:57 PT by github-actions[bot]</sub>
 <!-- updated:end -->
