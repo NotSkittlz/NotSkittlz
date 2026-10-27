@@ -16,11 +16,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 | Processes:                                                                              |
 |  PR#     Type   Process name                                     Memory (lines +/-)     |
 |=========================================================================================|
-|  #286    C      ai-investment-cockpit                                    +5666 / -0     |
-|  #307    C      recursion                                                 +452 / -0     |
-|  #234    G      ai-investment-cockpit                                      +27 / -8     |
-|  #306    C      recursion                                                +1421 / -0     |
-|  #297    C      ai-investment-cockpit                                    +262 / -10     |
+|  #298    C      ai-investment-cockpit                                     +82 / -25     |
+|  #293    C      ai-investment-cockpit                                    +3763 / -0     |
+|  #295    G      ai-investment-cockpit                                      +18 / -0     |
+|  #291    C      ai-investment-cockpit                                     +784 / -0     |
+|  #289    C      ai-investment-cockpit                                   +2042 / -21     |
 +-----------------------------------------------------------------------------------------+
 ```
 <!-- smi:end -->
@@ -34,14 +34,14 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 <!-- csl:start -->
 ```console
 $ tail -f /var/log/csl.log
-[2026-10-26 21:38] ai-investment-cockpit: merged #286 CSL-515 WP12: Cockpit route consumer and decision profile (Route Contract v0 pinned at recursion#302 baf6fdc2)
-[2026-10-26 19:52] recursion: merged #307 CSL-495 WP16 2/5: fake Claude-style and Codex-style engines
-[2026-10-26 19:31] ai-investment-cockpit: merged #234 CSL-381: add the review convergence rule to AGENTS.md
-[2026-10-26 19:30] recursion: merged #306 CSL-495 WP16 1/5: Control API core (auth, journal, JSON-RPC service)
-[2026-10-26 19:02] ai-investment-cockpit: merged #297 CSL-377: split launcher mcp refuse token per check
-[2026-10-26 18:50] ai-investment-cockpit: merged #270 CSL-392: linux-job docs-read audit (script + report)
-[2026-10-26 18:49] recursion: merged #302 CSL-496 WP6: Route Contract v0 draft against the fake driver
-[2026-10-26 17:40] ai-investment-cockpit: merged #275 CSL-523: founder GitHub PR approval as a replacement-program acceptance receipt
+[2026-10-27 15:05] ai-investment-cockpit: merged #298 fix(CSL-553): keep Windows founder-receipt digests on git blob bytes
+[2026-10-27 13:12] ai-investment-cockpit: merged #293 CSL-512: WP17 b5 recorded Linux operator session against the fake driver
+[2026-10-27 13:12] ai-investment-cockpit: merged #295 CSL-543: link CP0-v2 amendment in csl-research
+[2026-10-27 12:40] ai-investment-cockpit: merged #291 CSL-512: WP17 b4 loopback-only operator view with CLI parity
+[2026-10-27 11:06] ai-investment-cockpit: merged #289 CSL-512: WP17 b3 operator service API v0 and CLI over one typed view
+[2026-10-27 10:34] recursion: merged #304 CSL-495 WP16 5/5: frozen-SHA rerun script, README, INBOX and PROPOSALS
+[2026-10-27 10:05] recursion: merged #309 CSL-542: RP0-v2 spec amendment (committed for Lucas)
+[2026-10-27 10:04] recursion: merged #308 CSL-495 WP16 4/5: recorded fake-driver run (Codex and Claude paths)
 ```
 <!-- csl:end -->
 
@@ -61,5 +61,5 @@ $ tail -f /var/log/csl.log
 ---
 
 <!-- updated:start -->
-<sub>Last updated 2026-10-26 22:15 PT by github-actions[bot]</sub>
+<sub>Last updated 2026-10-27 15:23 PT by github-actions[bot]</sub>
 <!-- updated:end -->
