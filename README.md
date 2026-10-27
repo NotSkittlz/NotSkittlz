@@ -16,11 +16,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 | Processes:                                                                              |
 |  PR#     Type   Process name                                     Memory (lines +/-)     |
 |=========================================================================================|
-|  #285    C      ai-investment-cockpit                                    +359 / -15     |
-|  #303    C      recursion                                                 +844 / -0     |
-|  #269    C      ai-investment-cockpit                                     +144 / -0     |
-|  #301    C      recursion                                                +1204 / -0     |
-|  #300    G      recursion                                                 +82 / -13     |
+|  #286    C      ai-investment-cockpit                                    +5666 / -0     |
+|  #307    C      recursion                                                 +452 / -0     |
+|  #234    G      ai-investment-cockpit                                      +27 / -8     |
+|  #306    C      recursion                                                +1421 / -0     |
+|  #297    C      ai-investment-cockpit                                    +262 / -10     |
 +-----------------------------------------------------------------------------------------+
 ```
 <!-- smi:end -->
@@ -34,14 +34,14 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 <!-- csl:start -->
 ```console
 $ tail -f /var/log/csl.log
-[2026-10-26 15:00] ai-investment-cockpit: merged #285 CSL-377: refuse why + F1 last-miss + git-credential overlay
-[2026-10-26 14:36] recursion: merged #303 CSL-495: X1 inventory and floor for the Recursion legacy deletion boundary (WP14)
-[2026-10-26 14:36] ai-investment-cockpit: merged #269 CSL-471: pip check coverage for hashed model-job lock (follow-up to #260)
-[2026-10-26 14:18] recursion: merged #301 CSL-537 AT1: fake driver + session owner + CredentialRef
-[2026-10-26 14:17] recursion: merged #300 CSL-535: align protected files with the research-vault rule
-[2026-10-26 13:35] ai-investment-cockpit: merged #283 ci(CSL-511): promote replacement-program and O7 checkers to direct CI steps with a test-inventory floor (WP4)
-[2026-10-26 10:23] ai-investment-cockpit: merged #282 fix(CSL-377): skip action bun install on E3-populated node_modules
-[2026-10-26 09:29] ai-investment-cockpit: merged #281 fix(CSL-377): E3 hash-node-modules BindError on bun .bin symlinks
+[2026-10-26 21:38] ai-investment-cockpit: merged #286 CSL-515 WP12: Cockpit route consumer and decision profile (Route Contract v0 pinned at recursion#302 baf6fdc2)
+[2026-10-26 19:52] recursion: merged #307 CSL-495 WP16 2/5: fake Claude-style and Codex-style engines
+[2026-10-26 19:31] ai-investment-cockpit: merged #234 CSL-381: add the review convergence rule to AGENTS.md
+[2026-10-26 19:30] recursion: merged #306 CSL-495 WP16 1/5: Control API core (auth, journal, JSON-RPC service)
+[2026-10-26 19:02] ai-investment-cockpit: merged #297 CSL-377: split launcher mcp refuse token per check
+[2026-10-26 18:50] ai-investment-cockpit: merged #270 CSL-392: linux-job docs-read audit (script + report)
+[2026-10-26 18:49] recursion: merged #302 CSL-496 WP6: Route Contract v0 draft against the fake driver
+[2026-10-26 17:40] ai-investment-cockpit: merged #275 CSL-523: founder GitHub PR approval as a replacement-program acceptance receipt
 ```
 <!-- csl:end -->
 
@@ -61,5 +61,5 @@ $ tail -f /var/log/csl.log
 ---
 
 <!-- updated:start -->
-<sub>Last updated 2026-10-26 15:45 PT by github-actions[bot]</sub>
+<sub>Last updated 2026-10-26 22:15 PT by github-actions[bot]</sub>
 <!-- updated:end -->
