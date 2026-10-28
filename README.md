@@ -16,11 +16,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 | Processes:                                                                              |
 |  PR#     Type   Process name                                     Memory (lines +/-)     |
 |=========================================================================================|
-|  #298    C      ai-investment-cockpit                                     +82 / -25     |
-|  #293    C      ai-investment-cockpit                                    +3763 / -0     |
-|  #295    G      ai-investment-cockpit                                      +18 / -0     |
-|  #291    C      ai-investment-cockpit                                     +784 / -0     |
-|  #289    C      ai-investment-cockpit                                   +2042 / -21     |
+|  #230    C      recursion                                                  +54 / -1     |
+|  #233    C      recursion                                                 +72 / -11     |
+|  #278    G      recursion                                                   +1 / -1     |
+|  #299    C      ai-investment-cockpit                                   +1071 / -55     |
+|  #310    C      recursion                                                +426 / -73     |
 +-----------------------------------------------------------------------------------------+
 ```
 <!-- smi:end -->
@@ -34,14 +34,14 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 <!-- csl:start -->
 ```console
 $ tail -f /var/log/csl.log
+[2026-10-27 20:21] recursion: merged #230 CSL-248: restore caller GC state in perf_bench._timed_call
+[2026-10-27 19:24] recursion: merged #233 CSL-306: deduplicate env-var float parsing in tools/perf_ci.py
+[2026-10-27 19:18] recursion: merged #278 CSL-372: bump jsonschema CI pin to 4.26.0 to match cockpit
+[2026-10-27 19:08] ai-investment-cockpit: merged #299 CSL-518: seal an inconclusive bakeoff against the CP7 candidate
+[2026-10-27 19:07] recursion: merged #310 CSL-556: Fix Windows Control API hang on an occupied loopback port
 [2026-10-27 15:05] ai-investment-cockpit: merged #298 fix(CSL-553): keep Windows founder-receipt digests on git blob bytes
 [2026-10-27 13:12] ai-investment-cockpit: merged #293 CSL-512: WP17 b5 recorded Linux operator session against the fake driver
 [2026-10-27 13:12] ai-investment-cockpit: merged #295 CSL-543: link CP0-v2 amendment in csl-research
-[2026-10-27 12:40] ai-investment-cockpit: merged #291 CSL-512: WP17 b4 loopback-only operator view with CLI parity
-[2026-10-27 11:06] ai-investment-cockpit: merged #289 CSL-512: WP17 b3 operator service API v0 and CLI over one typed view
-[2026-10-27 10:34] recursion: merged #304 CSL-495 WP16 5/5: frozen-SHA rerun script, README, INBOX and PROPOSALS
-[2026-10-27 10:05] recursion: merged #309 CSL-542: RP0-v2 spec amendment (committed for Lucas)
-[2026-10-27 10:04] recursion: merged #308 CSL-495 WP16 4/5: recorded fake-driver run (Codex and Claude paths)
 ```
 <!-- csl:end -->
 
@@ -61,5 +61,5 @@ $ tail -f /var/log/csl.log
 ---
 
 <!-- updated:start -->
-<sub>Last updated 2026-10-27 15:23 PT by github-actions[bot]</sub>
+<sub>Last updated 2026-10-27 22:54 PT by github-actions[bot]</sub>
 <!-- updated:end -->
