@@ -16,11 +16,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 | Processes:                                                                              |
 |  PR#     Type   Process name                                     Memory (lines +/-)     |
 |=========================================================================================|
+|  #314    C      recursion                                               +0 / -32606     |
+|  #317    C      recursion                                               +7 / -25615     |
+|  #316    C      recursion                                             +72 / -440364     |
 |  #313    C      recursion                                               +67 / -5585     |
 |  #114    G      ai-investment-cockpit                                       +2 / -0     |
-|  #166    G      recursion                                                +450 / -19     |
-|  #106    G      ai-investment-cockpit                                       +7 / -4     |
-|  #104    C      ai-investment-cockpit                                      +1 / -30     |
 +-----------------------------------------------------------------------------------------+
 ```
 <!-- smi:end -->
@@ -34,14 +34,14 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 <!-- csl:start -->
 ```console
 $ tail -f /var/log/csl.log
+[2026-10-30 18:03] recursion: merged #314 CSL-584: delete the FU-03 research experiments
+[2026-10-30 17:34] recursion: merged #317 CSL-597: clear the legacy experiment chain
+[2026-10-30 16:18] recursion: merged #316 CSL-595: remove the docs moved to csl-research history
 [2026-10-29 21:47] recursion: merged #313 CSL-578: delete the legacy CLI harness and drop its oracles
 [2026-10-14 17:48] ai-investment-cockpit: merged #114 docs: link How CSL works at the top of AGENTS.md
-[2026-10-14 13:34] recursion: merged #166 Intake packet-F R-AUDIT return + PR #165 review
 [2026-10-14 13:21] ai-investment-cockpit: merged #106 CSL-68: Devin reviews; Claude Action is the PR fixer
 [2026-10-14 12:04] ai-investment-cockpit: merged #104 chore: remove clearly-dead code (CSL-64)
 [2026-10-14 10:38] ai-investment-cockpit: merged #102 CI: tiered Linux/Windows/macOS gates on Blacksmith
-[2026-10-02 14:19] recursion: merged #163 Intake packet-E return + PR #160 review (R-LANG/R-CS + suite qualification)
-[2026-10-02 13:14] recursion: merged #158 Competitive note: T3 Code v0.0.45
 ```
 <!-- csl:end -->
 
@@ -61,5 +61,5 @@ $ tail -f /var/log/csl.log
 ---
 
 <!-- updated:start -->
-<sub>Last updated 2026-10-29 22:59 PT by github-actions[bot]</sub>
+<sub>Last updated 2026-10-30 22:55 PT by github-actions[bot]</sub>
 <!-- updated:end -->
