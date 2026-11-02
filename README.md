@@ -16,11 +16,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 | Processes:                                                                              |
 |  PR#     Type   Process name                                     Memory (lines +/-)     |
 |=========================================================================================|
+|  #301    C      ai-investment-cockpit                                      +18 / -8     |
+|  #306    G      ai-investment-cockpit                                      +86 / -0     |
+|  #319    C      recursion                                              +497 / -3675     |
+|  #294    C      recursion                                                  +56 / -1     |
 |  #318    G      recursion                                                   +3 / -3     |
-|  #315    C      recursion                                                 +255 / -0     |
-|  #314    C      recursion                                               +0 / -32606     |
-|  #317    C      recursion                                               +7 / -25615     |
-|  #316    C      recursion                                             +72 / -440364     |
 +-----------------------------------------------------------------------------------------+
 ```
 <!-- smi:end -->
@@ -34,14 +34,14 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 <!-- csl:start -->
 ```console
 $ tail -f /var/log/csl.log
+[2026-11-02 12:40] ai-investment-cockpit: merged #301 CSL-579: Scrub personal email from SEC fixtures
+[2026-11-02 12:15] ai-investment-cockpit: merged #306 docs(CSL-600): add engine/ scaffolding for the X1 new tree
+[2026-11-02 12:03] recursion: merged #319 CSL-645: remove Devin from the review and fixer path; Codex is the bot reviewer
+[2026-11-02 11:54] recursion: merged #294 CSL-492: skip case-only rename unless the temp directory is case-sensitive
 [2026-11-01 20:18] recursion: merged #318 CSL-303: drop schemas/ from CONTRIBUTING.md's protected paths
 [2026-11-01 19:52] recursion: merged #315 CSL-585: add the pin slot for the csl-research product contract
 [2026-10-30 18:03] recursion: merged #314 CSL-584: delete the FU-03 research experiments
-[2026-10-30 17:34] recursion: merged #317 CSL-597: clear the legacy experiment chain
-[2026-10-30 16:18] recursion: merged #316 CSL-595: remove the docs moved to csl-research history
 [2026-10-14 17:48] ai-investment-cockpit: merged #114 docs: link How CSL works at the top of AGENTS.md
-[2026-10-14 13:21] ai-investment-cockpit: merged #106 CSL-68: Devin reviews; Claude Action is the PR fixer
-[2026-10-14 12:04] ai-investment-cockpit: merged #104 chore: remove clearly-dead code (CSL-64)
 ```
 <!-- csl:end -->
 
@@ -61,5 +61,5 @@ $ tail -f /var/log/csl.log
 ---
 
 <!-- updated:start -->
-<sub>Last updated 2026-11-01 22:23 PT by github-actions[bot]</sub>
+<sub>Last updated 2026-11-02 13:46 PT by github-actions[bot]</sub>
 <!-- updated:end -->
