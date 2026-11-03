@@ -16,11 +16,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 | Processes:                                                                              |
 |  PR#     Type   Process name                                     Memory (lines +/-)     |
 |=========================================================================================|
-|  #301    C      ai-investment-cockpit                                      +18 / -8     |
-|  #306    G      ai-investment-cockpit                                      +86 / -0     |
-|  #319    C      recursion                                              +497 / -3675     |
-|  #294    C      recursion                                                  +56 / -1     |
-|  #318    G      recursion                                                   +3 / -3     |
+|  #303    G      ai-investment-cockpit                                     +5 / -125     |
+|  #302    G      ai-investment-cockpit                                    +9 / -3352     |
+|  #308    G      ai-investment-cockpit                                     +21 / -10     |
+|  #307    C      ai-investment-cockpit                                      +84 / -0     |
+|  #300    C      ai-investment-cockpit                                     +294 / -3     |
 +-----------------------------------------------------------------------------------------+
 ```
 <!-- smi:end -->
@@ -34,14 +34,14 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 <!-- csl:start -->
 ```console
 $ tail -f /var/log/csl.log
-[2026-11-02 12:40] ai-investment-cockpit: merged #301 CSL-579: Scrub personal email from SEC fixtures
-[2026-11-02 12:15] ai-investment-cockpit: merged #306 docs(CSL-600): add engine/ scaffolding for the X1 new tree
+[2026-11-02 17:12] ai-investment-cockpit: merged #303 CSL-588: move two runbooks and a setup snapshot to csl-research (draft)
+[2026-11-02 16:51] ai-investment-cockpit: merged #302 CSL-583: move docs/archive and two unread audit docs to csl-research (draft)
+[2026-11-02 16:42] ai-investment-cockpit: merged #308 docs(CSL-602): tie the stay rule to the approved CSL-536 move list
+[2026-11-02 16:40] ai-investment-cockpit: merged #307 ci(CSL-601): run engine/tests in job linux
+[2026-11-02 16:34] ai-investment-cockpit: merged #300 feat(CSL-577): accept SUCCESSOR-PRODUCT.md as a pointer to the csl-research contract
 [2026-11-02 12:03] recursion: merged #319 CSL-645: remove Devin from the review and fixer path; Codex is the bot reviewer
 [2026-11-02 11:54] recursion: merged #294 CSL-492: skip case-only rename unless the temp directory is case-sensitive
 [2026-11-01 20:18] recursion: merged #318 CSL-303: drop schemas/ from CONTRIBUTING.md's protected paths
-[2026-11-01 19:52] recursion: merged #315 CSL-585: add the pin slot for the csl-research product contract
-[2026-10-30 18:03] recursion: merged #314 CSL-584: delete the FU-03 research experiments
-[2026-10-14 17:48] ai-investment-cockpit: merged #114 docs: link How CSL works at the top of AGENTS.md
 ```
 <!-- csl:end -->
 
@@ -61,5 +61,5 @@ $ tail -f /var/log/csl.log
 ---
 
 <!-- updated:start -->
-<sub>Last updated 2026-11-02 13:46 PT by github-actions[bot]</sub>
+<sub>Last updated 2026-11-02 22:57 PT by github-actions[bot]</sub>
 <!-- updated:end -->
