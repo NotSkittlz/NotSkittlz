@@ -16,11 +16,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 | Processes:                                                                              |
 |  PR#     Type   Process name                                     Memory (lines +/-)     |
 |=========================================================================================|
-|  #303    G      ai-investment-cockpit                                     +5 / -125     |
-|  #302    G      ai-investment-cockpit                                    +9 / -3352     |
-|  #308    G      ai-investment-cockpit                                     +21 / -10     |
-|  #307    C      ai-investment-cockpit                                      +84 / -0     |
-|  #300    C      ai-investment-cockpit                                     +294 / -3     |
+|  #315    G      ai-investment-cockpit                                     +6 / -707     |
+|  #314    G      ai-investment-cockpit                                    +0 / -8361     |
+|  #313    G      ai-investment-cockpit                                   +0 / -14567     |
+|  #312    G      ai-investment-cockpit                                  +10 / -10055     |
+|  #309    G      ai-investment-cockpit                                   +92 / -5123     |
 +-----------------------------------------------------------------------------------------+
 ```
 <!-- smi:end -->
@@ -34,11 +34,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 <!-- csl:start -->
 ```console
 $ tail -f /var/log/csl.log
-[2026-11-02 17:12] ai-investment-cockpit: merged #303 CSL-588: move two runbooks and a setup snapshot to csl-research (draft)
-[2026-11-02 16:51] ai-investment-cockpit: merged #302 CSL-583: move docs/archive and two unread audit docs to csl-research (draft)
-[2026-11-02 16:42] ai-investment-cockpit: merged #308 docs(CSL-602): tie the stay rule to the approved CSL-536 move list
-[2026-11-02 16:40] ai-investment-cockpit: merged #307 ci(CSL-601): run engine/tests in job linux
-[2026-11-02 16:34] ai-investment-cockpit: merged #300 feat(CSL-577): accept SUCCESSOR-PRODUCT.md as a pointer to the csl-research contract
+[2026-11-04 19:20] ai-investment-cockpit: merged #315 CSL-701: remove the 16 historical swarm briefs (move round 3b)
+[2026-11-04 18:23] ai-investment-cockpit: merged #314 CSL-675: remove the rw22 matrix and seven astra evidence directories (#311 split, 3 of 3)
+[2026-11-04 16:01] ai-investment-cockpit: merged #313 CSL-674: remove the two rw23-rw24 local matrices (#311 split, 2 of 3)
+[2026-11-04 15:45] ai-investment-cockpit: merged #312 CSL-673: remove four legacy evidence directories and repoint part 4's links (#311 split, 1 of 3)
+[2026-11-04 15:30] ai-investment-cockpit: merged #309 CSL-664: remove the remaining top-level legacy docs/evidence notes (#305 split, part 2)
 [2026-11-02 12:03] recursion: merged #319 CSL-645: remove Devin from the review and fixer path; Codex is the bot reviewer
 [2026-11-02 11:54] recursion: merged #294 CSL-492: skip case-only rename unless the temp directory is case-sensitive
 [2026-11-01 20:18] recursion: merged #318 CSL-303: drop schemas/ from CONTRIBUTING.md's protected paths
@@ -61,5 +61,5 @@ $ tail -f /var/log/csl.log
 ---
 
 <!-- updated:start -->
-<sub>Last updated 2026-11-02 22:57 PT by github-actions[bot]</sub>
+<sub>Last updated 2026-11-04 22:59 PT by github-actions[bot]</sub>
 <!-- updated:end -->
