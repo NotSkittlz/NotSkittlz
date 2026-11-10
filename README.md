@@ -16,11 +16,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 | Processes:                                                                              |
 |  PR#     Type   Process name                                     Memory (lines +/-)     |
 |=========================================================================================|
+|  #320    C      recursion                                                +2868 / -0     |
+|  #321    C      recursion                                                +4050 / -0     |
 |  #334    C      recursion                                                 +102 / -2     |
 |  #315    G      ai-investment-cockpit                                     +6 / -707     |
 |  #314    G      ai-investment-cockpit                                    +0 / -8361     |
-|  #313    G      ai-investment-cockpit                                   +0 / -14567     |
-|  #312    G      ai-investment-cockpit                                  +10 / -10055     |
 +-----------------------------------------------------------------------------------------+
 ```
 <!-- smi:end -->
@@ -34,14 +34,14 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 <!-- csl:start -->
 ```console
 $ tail -f /var/log/csl.log
+[2026-11-10 11:36] recursion: merged #320 Agent (Grok Bot Liaison, for Lucas): CSL-785 B1 child-environment allowlist in core/recursion_core
+[2026-11-10 11:35] recursion: merged #321 Agent (Grok Bot Liaison, for Lucas): CSL-786 B3 Claude-subscription route refusals in core/recursion_core
 [2026-11-09 12:55] recursion: merged #334 CSL-795: run core/ tests in the CI gate
 [2026-11-04 19:20] ai-investment-cockpit: merged #315 CSL-701: remove the 16 historical swarm briefs (move round 3b)
 [2026-11-04 18:23] ai-investment-cockpit: merged #314 CSL-675: remove the rw22 matrix and seven astra evidence directories (#311 split, 3 of 3)
 [2026-11-04 16:01] ai-investment-cockpit: merged #313 CSL-674: remove the two rw23-rw24 local matrices (#311 split, 2 of 3)
 [2026-11-04 15:45] ai-investment-cockpit: merged #312 CSL-673: remove four legacy evidence directories and repoint part 4's links (#311 split, 1 of 3)
 [2026-11-04 15:30] ai-investment-cockpit: merged #309 CSL-664: remove the remaining top-level legacy docs/evidence notes (#305 split, part 2)
-[2026-11-02 12:03] recursion: merged #319 CSL-645: remove Devin from the review and fixer path; Codex is the bot reviewer
-[2026-11-02 11:54] recursion: merged #294 CSL-492: skip case-only rename unless the temp directory is case-sensitive
 ```
 <!-- csl:end -->
 
@@ -61,5 +61,5 @@ $ tail -f /var/log/csl.log
 ---
 
 <!-- updated:start -->
-<sub>Last updated 2026-11-09 14:29 PT by github-actions[bot]</sub>
+<sub>Last updated 2026-11-10 11:50 PT by github-actions[bot]</sub>
 <!-- updated:end -->
