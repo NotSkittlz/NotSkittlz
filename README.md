@@ -16,11 +16,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 | Processes:                                                                              |
 |  PR#     Type   Process name                                     Memory (lines +/-)     |
 |=========================================================================================|
-|  #363    C      recursion                                                +191 / -14     |
-|  #325    G      ai-investment-cockpit                                     +35 / -35     |
-|  #362    C      recursion                                               +1226 / -96     |
-|  #316    C      ai-investment-cockpit                                     +346 / -0     |
-|  #322    C      recursion                                                +119 / -19     |
+|  #365    C      recursion                                                +541 / -32     |
+|  #329    C      recursion                                                +4567 / -3     |
+|  #327    C      recursion                                                +3298 / -0     |
+|  #330    C      recursion                                                +2822 / -0     |
+|  #348    C      recursion                                              +43278 / -62     |
 +-----------------------------------------------------------------------------------------+
 ```
 <!-- smi:end -->
@@ -34,13 +34,13 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 <!-- csl:start -->
 ```console
 $ tail -f /var/log/csl.log
-[2026-11-12 21:58] recursion: merged #363 Agent (Claude Code Recursion gate lane, for Lucas): CSL-738 a second start of a run still in flight is refused without deadlocking the starter
+[2026-11-13 02:54] recursion: merged #365 Agent (Claude Code C0-Routes, for Lucas): C0 routes set, R3 fix-1, 2, 9, 11 (revised), 12
+[2026-11-12 23:55] recursion: merged #329 CSL-799 TUI as a control API client (build item 8b)
+[2026-11-12 23:55] recursion: merged #330 Agent (Grok Bot Liaison, for Lucas): CSL-800 daemon-served operator GUI in core/recursion_core (O68 bar 4)
+[2026-11-12 23:55] recursion: merged #327 Agent (Grok Bot Liaison, for Lucas): CSL-798 build item 8: Control CLI and Stop through the control API
+[2026-11-12 23:55] recursion: merged #348 Agent (Grok Bot CSL Recursion, for Lucas): CSL-738 Nov 11 integrated candidate (daemon + control API + routes + Stop)
 [2026-11-12 20:10] ai-investment-cockpit: merged #325 Agent (Claude Code Cockpit-Docs, for Lucas): docs(CSL-858): replace operator-specific values with placeholders
-[2026-11-12 19:58] recursion: merged #362 Agent (Claude Code Recursion gate lane, for Lucas): CSL-738 Stop answers pending when it cannot show the cleanup; helper-key and passthrough routes are refused
 [2026-11-10 16:09] ai-investment-cockpit: merged #316 Agent (Grok Bot Liaison, for Lucas): CSL-796 pin PRODUCT.md at d84cdd26
-[2026-11-10 15:28] recursion: merged #322 Agent (Grok Bot Liaison, for Lucas): CSL-794 pin PRODUCT.md at d84cdd26
-[2026-11-10 11:36] recursion: merged #320 Agent (Grok Bot Liaison, for Lucas): CSL-785 B1 child-environment allowlist in core/recursion_core
-[2026-11-10 11:35] recursion: merged #321 Agent (Grok Bot Liaison, for Lucas): CSL-786 B3 Claude-subscription route refusals in core/recursion_core
 [2026-11-04 19:20] ai-investment-cockpit: merged #315 CSL-701: remove the 16 historical swarm briefs (move round 3b)
 ```
 <!-- csl:end -->
@@ -61,5 +61,5 @@ $ tail -f /var/log/csl.log
 ---
 
 <!-- updated:start -->
-<sub>Last updated 2026-11-12 22:55 PT by github-actions[bot]</sub>
+<sub>Last updated 2026-11-13 11:50 PT by github-actions[bot]</sub>
 <!-- updated:end -->
