@@ -16,11 +16,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 | Processes:                                                                              |
 |  PR#     Type   Process name                                     Memory (lines +/-)     |
 |=========================================================================================|
+|  #363    C      recursion                                                +191 / -14     |
+|  #325    G      ai-investment-cockpit                                     +35 / -35     |
+|  #362    C      recursion                                               +1226 / -96     |
 |  #316    C      ai-investment-cockpit                                     +346 / -0     |
 |  #322    C      recursion                                                +119 / -19     |
-|  #320    C      recursion                                                +2868 / -0     |
-|  #321    C      recursion                                                +4050 / -0     |
-|  #334    C      recursion                                                 +102 / -2     |
 +-----------------------------------------------------------------------------------------+
 ```
 <!-- smi:end -->
@@ -34,14 +34,14 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 <!-- csl:start -->
 ```console
 $ tail -f /var/log/csl.log
+[2026-11-12 21:58] recursion: merged #363 Agent (Claude Code Recursion gate lane, for Lucas): CSL-738 a second start of a run still in flight is refused without deadlocking the starter
+[2026-11-12 20:10] ai-investment-cockpit: merged #325 Agent (Claude Code Cockpit-Docs, for Lucas): docs(CSL-858): replace operator-specific values with placeholders
+[2026-11-12 19:58] recursion: merged #362 Agent (Claude Code Recursion gate lane, for Lucas): CSL-738 Stop answers pending when it cannot show the cleanup; helper-key and passthrough routes are refused
 [2026-11-10 16:09] ai-investment-cockpit: merged #316 Agent (Grok Bot Liaison, for Lucas): CSL-796 pin PRODUCT.md at d84cdd26
 [2026-11-10 15:28] recursion: merged #322 Agent (Grok Bot Liaison, for Lucas): CSL-794 pin PRODUCT.md at d84cdd26
 [2026-11-10 11:36] recursion: merged #320 Agent (Grok Bot Liaison, for Lucas): CSL-785 B1 child-environment allowlist in core/recursion_core
 [2026-11-10 11:35] recursion: merged #321 Agent (Grok Bot Liaison, for Lucas): CSL-786 B3 Claude-subscription route refusals in core/recursion_core
-[2026-11-09 12:55] recursion: merged #334 CSL-795: run core/ tests in the CI gate
 [2026-11-04 19:20] ai-investment-cockpit: merged #315 CSL-701: remove the 16 historical swarm briefs (move round 3b)
-[2026-11-04 18:23] ai-investment-cockpit: merged #314 CSL-675: remove the rw22 matrix and seven astra evidence directories (#311 split, 3 of 3)
-[2026-11-04 16:01] ai-investment-cockpit: merged #313 CSL-674: remove the two rw23-rw24 local matrices (#311 split, 2 of 3)
 ```
 <!-- csl:end -->
 
@@ -61,5 +61,5 @@ $ tail -f /var/log/csl.log
 ---
 
 <!-- updated:start -->
-<sub>Last updated 2026-11-10 22:42 PT by github-actions[bot]</sub>
+<sub>Last updated 2026-11-12 22:55 PT by github-actions[bot]</sub>
 <!-- updated:end -->
