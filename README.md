@@ -16,11 +16,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 | Processes:                                                                              |
 |  PR#     Type   Process name                                     Memory (lines +/-)     |
 |=========================================================================================|
-|  #365    C      recursion                                                +541 / -32     |
-|  #329    C      recursion                                                +4567 / -3     |
-|  #327    C      recursion                                                +3298 / -0     |
-|  #330    C      recursion                                                +2822 / -0     |
-|  #348    C      recursion                                              +43278 / -62     |
+|  #329    G      ai-investment-cockpit                                     +27 / -23     |
+|  #326    C      ai-investment-cockpit                                  +2523 / -137     |
+|  #367    C      recursion                                                +699 / -52     |
+|  #327    G      ai-investment-cockpit                                     +49 / -56     |
+|  #328    C      ai-investment-cockpit                                      +11 / -6     |
 +-----------------------------------------------------------------------------------------+
 ```
 <!-- smi:end -->
@@ -34,14 +34,14 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 <!-- csl:start -->
 ```console
 $ tail -f /var/log/csl.log
+[2026-11-13 17:03] ai-investment-cockpit: merged #329 Agent (Claude Code Cockpit-Docs, for Lucas): CSL-861 agent docs stop relying on the Linear sync comment and watcher roll-up
+[2026-11-13 14:46] ai-investment-cockpit: merged #326 Agent (Claude Code Cockpit-Keys, for Lucas): CSL-59 keys: OS keychain of a mixed keyring chain; ~/.config on the first save
+[2026-11-13 14:41] recursion: merged #367 Agent (Claude Code C0-Stop, for Lucas): CSL-720 C0 plugin set: R4 fix-5, fix-9 (revised) and fix-8 (internal half)
+[2026-11-13 14:30] ai-investment-cockpit: merged #327 Agent (Claude Code Cockpit-Docs, for Lucas): CSL-861 front page and agent instructions say what is true
+[2026-11-13 14:27] ai-investment-cockpit: merged #328 Agent (Claude Code Cockpit-Workflows, for Lucas): CSL-862 workflows stop writing to Linear
+[2026-11-13 14:16] recursion: merged #366 Agent (Claude Code C0-Stop, for Lucas): CSL-738 C0 Stop set: R1 fix-10, fix-9 and fix-4 (amended) from the reviewed combination
 [2026-11-13 02:54] recursion: merged #365 Agent (Claude Code C0-Routes, for Lucas): C0 routes set, R3 fix-1, 2, 9, 11 (revised), 12
-[2026-11-12 23:55] recursion: merged #329 CSL-799 TUI as a control API client (build item 8b)
-[2026-11-12 23:55] recursion: merged #330 Agent (Grok Bot Liaison, for Lucas): CSL-800 daemon-served operator GUI in core/recursion_core (O68 bar 4)
 [2026-11-12 23:55] recursion: merged #327 Agent (Grok Bot Liaison, for Lucas): CSL-798 build item 8: Control CLI and Stop through the control API
-[2026-11-12 23:55] recursion: merged #348 Agent (Grok Bot CSL Recursion, for Lucas): CSL-738 Nov 11 integrated candidate (daemon + control API + routes + Stop)
-[2026-11-12 20:10] ai-investment-cockpit: merged #325 Agent (Claude Code Cockpit-Docs, for Lucas): docs(CSL-858): replace operator-specific values with placeholders
-[2026-11-10 16:09] ai-investment-cockpit: merged #316 Agent (Grok Bot Liaison, for Lucas): CSL-796 pin PRODUCT.md at d84cdd26
-[2026-11-04 19:20] ai-investment-cockpit: merged #315 CSL-701: remove the 16 historical swarm briefs (move round 3b)
 ```
 <!-- csl:end -->
 
@@ -61,5 +61,5 @@ $ tail -f /var/log/csl.log
 ---
 
 <!-- updated:start -->
-<sub>Last updated 2026-11-13 11:50 PT by github-actions[bot]</sub>
+<sub>Last updated 2026-11-13 22:40 PT by github-actions[bot]</sub>
 <!-- updated:end -->
