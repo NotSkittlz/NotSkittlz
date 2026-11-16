@@ -16,11 +16,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 | Processes:                                                                              |
 |  PR#     Type   Process name                                     Memory (lines +/-)     |
 |=========================================================================================|
-|  #329    G      ai-investment-cockpit                                     +27 / -23     |
-|  #326    C      ai-investment-cockpit                                  +2523 / -137     |
-|  #367    C      recursion                                                +699 / -52     |
-|  #327    G      ai-investment-cockpit                                     +49 / -56     |
-|  #328    C      ai-investment-cockpit                                      +11 / -6     |
+|  #368    C      recursion                                              +119891 / -0     |
+|  #390    C      recursion                                                +7422 / -0     |
+|  #381    C      recursion                                                +9079 / -0     |
+|  #372    C      recursion                                               +2789 / -88     |
+|  #384    C      recursion                                               +1024 / -48     |
 +-----------------------------------------------------------------------------------------+
 ```
 <!-- smi:end -->
@@ -34,14 +34,14 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 <!-- csl:start -->
 ```console
 $ tail -f /var/log/csl.log
+[2026-11-15 19:38] recursion: merged #368 Agent (Claude Code Spine, for Lucas): CSL-238 control and plugin records, version 1 drafts: seventeen schemas with fixtures, the method table, and a conformance client
+[2026-11-15 19:31] recursion: merged #390 Agent (Claude Code DESKTOP, for Lucas): CSL-238 desktop app slice 1: request fixtures, stand-in daemon, inert frontend
+[2026-11-15 19:06] recursion: merged #381 Agent (Claude Code EVAL, for Lucas): CSL-238 EVAL slices 1 and 2: protocol, record, pass^k calculator, runner, harvest, held-out guard, dev set (offline contract proof)
+[2026-11-15 17:22] recursion: merged #372 Agent (Claude Code TUI, for Lucas): CSL-799 TUI slice 1, terminal input decoder and C7's tui findings (R2 6, 10, 11)
+[2026-11-15 17:07] recursion: merged #384 Agent (Claude Code PAGE, for Lucas): CSL-238 PAGE slice 1: C7 finding 4, finding 12's test, gui/panels.py frozen
 [2026-11-13 17:03] ai-investment-cockpit: merged #329 Agent (Claude Code Cockpit-Docs, for Lucas): CSL-861 agent docs stop relying on the Linear sync comment and watcher roll-up
 [2026-11-13 14:46] ai-investment-cockpit: merged #326 Agent (Claude Code Cockpit-Keys, for Lucas): CSL-59 keys: OS keychain of a mixed keyring chain; ~/.config on the first save
-[2026-11-13 14:41] recursion: merged #367 Agent (Claude Code C0-Stop, for Lucas): CSL-720 C0 plugin set: R4 fix-5, fix-9 (revised) and fix-8 (internal half)
 [2026-11-13 14:30] ai-investment-cockpit: merged #327 Agent (Claude Code Cockpit-Docs, for Lucas): CSL-861 front page and agent instructions say what is true
-[2026-11-13 14:27] ai-investment-cockpit: merged #328 Agent (Claude Code Cockpit-Workflows, for Lucas): CSL-862 workflows stop writing to Linear
-[2026-11-13 14:16] recursion: merged #366 Agent (Claude Code C0-Stop, for Lucas): CSL-738 C0 Stop set: R1 fix-10, fix-9 and fix-4 (amended) from the reviewed combination
-[2026-11-13 02:54] recursion: merged #365 Agent (Claude Code C0-Routes, for Lucas): C0 routes set, R3 fix-1, 2, 9, 11 (revised), 12
-[2026-11-12 23:55] recursion: merged #327 Agent (Grok Bot Liaison, for Lucas): CSL-798 build item 8: Control CLI and Stop through the control API
 ```
 <!-- csl:end -->
 
@@ -61,5 +61,5 @@ $ tail -f /var/log/csl.log
 ---
 
 <!-- updated:start -->
-<sub>Last updated 2026-11-13 22:40 PT by github-actions[bot]</sub>
+<sub>Last updated 2026-11-15 22:45 PT by github-actions[bot]</sub>
 <!-- updated:end -->
