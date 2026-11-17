@@ -16,11 +16,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 | Processes:                                                                              |
 |  PR#     Type   Process name                                     Memory (lines +/-)     |
 |=========================================================================================|
-|  #368    C      recursion                                              +119891 / -0     |
-|  #390    C      recursion                                                +7422 / -0     |
-|  #381    C      recursion                                                +9079 / -0     |
-|  #372    C      recursion                                               +2789 / -88     |
-|  #384    C      recursion                                               +1024 / -48     |
+|  #520    C      recursion                                                   +6 / -1     |
+|  #430    C      recursion                                                 +185 / -4     |
+|  #407    C      recursion                                                +536 / -19     |
+|  #405    C      recursion                                               +6106 / -94     |
+|  #394    C      recursion                                                +2297 / -0     |
 +-----------------------------------------------------------------------------------------+
 ```
 <!-- smi:end -->
@@ -34,11 +34,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 <!-- csl:start -->
 ```console
 $ tail -f /var/log/csl.log
-[2026-11-15 19:38] recursion: merged #368 Agent (Claude Code Spine, for Lucas): CSL-238 control and plugin records, version 1 drafts: seventeen schemas with fixtures, the method table, and a conformance client
-[2026-11-15 19:31] recursion: merged #390 Agent (Claude Code DESKTOP, for Lucas): CSL-238 desktop app slice 1: request fixtures, stand-in daemon, inert frontend
-[2026-11-15 19:06] recursion: merged #381 Agent (Claude Code EVAL, for Lucas): CSL-238 EVAL slices 1 and 2: protocol, record, pass^k calculator, runner, harvest, held-out guard, dev set (offline contract proof)
-[2026-11-15 17:22] recursion: merged #372 Agent (Claude Code TUI, for Lucas): CSL-799 TUI slice 1, terminal input decoder and C7's tui findings (R2 6, 10, 11)
-[2026-11-15 17:07] recursion: merged #384 Agent (Claude Code PAGE, for Lucas): CSL-238 PAGE slice 1: C7 finding 4, finding 12's test, gui/panels.py frozen
+[2026-11-16 23:30] recursion: merged #520 Agent (Claude Code CI, for Lucas): CSL-238 run the simulated-Windows children four at a time
+[2026-11-16 21:43] recursion: merged #430 Agent (Claude Code CONTROL, for Lucas): CSL-238 CONTROL, MCP isError: a Stop's pending or ended and an interrupt's pending are answers, not errors
+[2026-11-16 20:59] recursion: merged #407 Agent (Claude Code CONTROL, for Lucas): CSL-238 CONTROL, control_transport: a worker frees its slot before it shuts its connection; the reserved-connection test drops its clock
+[2026-11-16 16:10] recursion: merged #405 Agent (Claude Code TUI, for Lucas): CSL-799 TUI slice 2, part 2, fake daemon, session list and transcript (stacked on #369)
+[2026-11-16 16:09] recursion: merged #394 Agent (Claude Code ENGINE-E3, for Lucas): OpenCode parser, synthetic fixtures and a fake opencode (ENGINE-E3 slice 1, CSL-238)
 [2026-11-13 17:03] ai-investment-cockpit: merged #329 Agent (Claude Code Cockpit-Docs, for Lucas): CSL-861 agent docs stop relying on the Linear sync comment and watcher roll-up
 [2026-11-13 14:46] ai-investment-cockpit: merged #326 Agent (Claude Code Cockpit-Keys, for Lucas): CSL-59 keys: OS keychain of a mixed keyring chain; ~/.config on the first save
 [2026-11-13 14:30] ai-investment-cockpit: merged #327 Agent (Claude Code Cockpit-Docs, for Lucas): CSL-861 front page and agent instructions say what is true
@@ -61,5 +61,5 @@ $ tail -f /var/log/csl.log
 ---
 
 <!-- updated:start -->
-<sub>Last updated 2026-11-15 22:45 PT by github-actions[bot]</sub>
+<sub>Last updated 2026-11-17 00:05 PT by github-actions[bot]</sub>
 <!-- updated:end -->
