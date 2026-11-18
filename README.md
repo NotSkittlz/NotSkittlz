@@ -16,11 +16,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 | Processes:                                                                              |
 |  PR#     Type   Process name                                     Memory (lines +/-)     |
 |=========================================================================================|
+|  #377    C      recursion                                               +4701 / -53     |
 |  #438    C      recursion                                                  +31 / -2     |
 |  #520    C      recursion                                                   +6 / -1     |
 |  #430    C      recursion                                                 +185 / -4     |
 |  #407    C      recursion                                                +536 / -19     |
-|  #405    C      recursion                                               +6106 / -94     |
 +-----------------------------------------------------------------------------------------+
 ```
 <!-- smi:end -->
@@ -34,11 +34,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 <!-- csl:start -->
 ```console
 $ tail -f /var/log/csl.log
+[2026-11-17 19:39] recursion: merged #377 Agent (Claude Code CONTROL, for Lucas): CSL-238 CONTROL PR 1, review findings 2, 7, 8, 9 and 14, credentials and scopes
 [2026-11-17 12:14] recursion: merged #438 Agent (Claude Code SPINE, for Lucas): CSL-238 seam tests simulate an absent lane package instead of assuming one
 [2026-11-16 23:30] recursion: merged #520 Agent (Claude Code CI, for Lucas): CSL-238 run the simulated-Windows children four at a time
 [2026-11-16 21:43] recursion: merged #430 Agent (Claude Code CONTROL, for Lucas): CSL-238 CONTROL, MCP isError: a Stop's pending or ended and an interrupt's pending are answers, not errors
 [2026-11-16 20:59] recursion: merged #407 Agent (Claude Code CONTROL, for Lucas): CSL-238 CONTROL, control_transport: a worker frees its slot before it shuts its connection; the reserved-connection test drops its clock
-[2026-11-16 16:10] recursion: merged #405 Agent (Claude Code TUI, for Lucas): CSL-799 TUI slice 2, part 2, fake daemon, session list and transcript (stacked on #369)
 [2026-11-13 17:03] ai-investment-cockpit: merged #329 Agent (Claude Code Cockpit-Docs, for Lucas): CSL-861 agent docs stop relying on the Linear sync comment and watcher roll-up
 [2026-11-13 14:46] ai-investment-cockpit: merged #326 Agent (Claude Code Cockpit-Keys, for Lucas): CSL-59 keys: OS keychain of a mixed keyring chain; ~/.config on the first save
 [2026-11-13 14:30] ai-investment-cockpit: merged #327 Agent (Claude Code Cockpit-Docs, for Lucas): CSL-861 front page and agent instructions say what is true
@@ -61,5 +61,5 @@ $ tail -f /var/log/csl.log
 ---
 
 <!-- updated:start -->
-<sub>Last updated 2026-11-17 13:03 PT by github-actions[bot]</sub>
+<sub>Last updated 2026-11-17 23:41 PT by github-actions[bot]</sub>
 <!-- updated:end -->
