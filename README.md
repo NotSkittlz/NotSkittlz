@@ -16,11 +16,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 | Processes:                                                                              |
 |  PR#     Type   Process name                                     Memory (lines +/-)     |
 |=========================================================================================|
-|  #451    C      recursion                                                +467 / -14     |
-|  #336    C      ai-investment-cockpit                                     +285 / -8     |
-|  #455    C      recursion                                                +866 / -26     |
-|  #429    C      recursion                                                +429 / -19     |
-|  #377    C      recursion                                               +4701 / -53     |
+|  #341    C      ai-investment-cockpit                                    +605 / -18     |
+|  #334    C      ai-investment-cockpit                                    +371 / -23     |
+|  #337    C      ai-investment-cockpit                                    +389 / -56     |
+|  #333    C      ai-investment-cockpit                                    +463 / -32     |
+|  #511    C      recursion                                                 +210 / -2     |
 +-----------------------------------------------------------------------------------------+
 ```
 <!-- smi:end -->
@@ -34,14 +34,14 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 <!-- csl:start -->
 ```console
 $ tail -f /var/log/csl.log
+[2026-11-18 18:26] ai-investment-cockpit: merged #341 Agent (Claude Code COCKPIT, for Lucas): feat(CSL-238): spine session and route consumer refuse uncorrelated, non-finite and malformed-contract inputs
+[2026-11-18 18:06] ai-investment-cockpit: merged #334 Agent (Claude Code COCKPIT, for Lucas): feat(CSL-238): a replace's total is converted once to the size the book rests
+[2026-11-18 17:45] ai-investment-cockpit: merged #337 Agent (Claude Code COCKPIT, for Lucas): feat(CSL-238): PUT /limits reads, classifies, disarms and appends under one lock (W2)
+[2026-11-18 17:17] ai-investment-cockpit: merged #333 Agent (Claude Code COCKPIT, for Lucas): feat(CSL-238): the kill switch attempts every containment step and audits the ones that failed
+[2026-11-18 17:16] recursion: merged #511 Agent (Grok Build STOP, for Lucas): CSL-238 a failed result write drops its temp and a line-aligned tail keeps its line
+[2026-11-18 13:52] ai-investment-cockpit: merged #340 Agent (Claude Code COCKPIT, for Lucas): feat(CSL-238): startup reconcile counts a fill as landed only for a finite positive quantity
+[2026-11-18 13:52] recursion: merged #504 Agent (Grok Build STOP, for Lucas): CSL-238 route logs name the exception type and a repeated route key is refused
 [2026-11-18 09:51] recursion: merged #451 Agent (Claude Code PLUGIN-SIGN, for Lucas): CSL-238 the revocation store takes each generation from the durable row
-[2026-11-18 01:41] ai-investment-cockpit: merged #336 Agent (Claude Code COCKPIT, for Lucas): feat(CSL-238): an SEC halt during an EDGAR run grants no completion and is counted as a failure
-[2026-11-18 01:41] recursion: merged #455 Agent (Claude Code STOP, for Lucas): CSL-238 draft 1 of the daemon triage, the route start path (E04, E05, E34, E19, E18)
-[2026-11-18 00:29] recursion: merged #429 Agent (Claude Code Spine, for Lucas): CSL-238 the dispatcher refuses a command id outside common.v1's grammar before the receipt lookup
-[2026-11-17 19:39] recursion: merged #377 Agent (Claude Code CONTROL, for Lucas): CSL-238 CONTROL PR 1, review findings 2, 7, 8, 9 and 14, credentials and scopes
-[2026-11-17 12:14] recursion: merged #438 Agent (Claude Code SPINE, for Lucas): CSL-238 seam tests simulate an absent lane package instead of assuming one
-[2026-11-13 17:03] ai-investment-cockpit: merged #329 Agent (Claude Code Cockpit-Docs, for Lucas): CSL-861 agent docs stop relying on the Linear sync comment and watcher roll-up
-[2026-11-13 14:46] ai-investment-cockpit: merged #326 Agent (Claude Code Cockpit-Keys, for Lucas): CSL-59 keys: OS keychain of a mixed keyring chain; ~/.config on the first save
 ```
 <!-- csl:end -->
 
@@ -61,5 +61,5 @@ $ tail -f /var/log/csl.log
 ---
 
 <!-- updated:start -->
-<sub>Last updated 2026-11-18 12:40 PT by github-actions[bot]</sub>
+<sub>Last updated 2026-11-18 23:37 PT by github-actions[bot]</sub>
 <!-- updated:end -->
