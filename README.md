@@ -16,11 +16,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 | Processes:                                                                              |
 |  PR#     Type   Process name                                     Memory (lines +/-)     |
 |=========================================================================================|
+|  #599    C      recursion                                                  +52 / -4     |
 |  #341    C      ai-investment-cockpit                                    +605 / -18     |
 |  #334    C      ai-investment-cockpit                                    +371 / -23     |
 |  #337    C      ai-investment-cockpit                                    +389 / -56     |
 |  #333    C      ai-investment-cockpit                                    +463 / -32     |
-|  #511    C      recursion                                                 +210 / -2     |
 +-----------------------------------------------------------------------------------------+
 ```
 <!-- smi:end -->
@@ -34,6 +34,7 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 <!-- csl:start -->
 ```console
 $ tail -f /var/log/csl.log
+[2026-11-19 17:49] recursion: merged #599 Agent (Claude Code SIMWIN, for Lucas): CSL-238 the simulated Windows step runs the tests of every tests folder under the core
 [2026-11-18 18:26] ai-investment-cockpit: merged #341 Agent (Claude Code COCKPIT, for Lucas): feat(CSL-238): spine session and route consumer refuse uncorrelated, non-finite and malformed-contract inputs
 [2026-11-18 18:06] ai-investment-cockpit: merged #334 Agent (Claude Code COCKPIT, for Lucas): feat(CSL-238): a replace's total is converted once to the size the book rests
 [2026-11-18 17:45] ai-investment-cockpit: merged #337 Agent (Claude Code COCKPIT, for Lucas): feat(CSL-238): PUT /limits reads, classifies, disarms and appends under one lock (W2)
@@ -41,7 +42,6 @@ $ tail -f /var/log/csl.log
 [2026-11-18 17:16] recursion: merged #511 Agent (Grok Build STOP, for Lucas): CSL-238 a failed result write drops its temp and a line-aligned tail keeps its line
 [2026-11-18 13:52] ai-investment-cockpit: merged #340 Agent (Claude Code COCKPIT, for Lucas): feat(CSL-238): startup reconcile counts a fill as landed only for a finite positive quantity
 [2026-11-18 13:52] recursion: merged #504 Agent (Grok Build STOP, for Lucas): CSL-238 route logs name the exception type and a repeated route key is refused
-[2026-11-18 09:51] recursion: merged #451 Agent (Claude Code PLUGIN-SIGN, for Lucas): CSL-238 the revocation store takes each generation from the durable row
 ```
 <!-- csl:end -->
 
@@ -61,5 +61,5 @@ $ tail -f /var/log/csl.log
 ---
 
 <!-- updated:start -->
-<sub>Last updated 2026-11-18 23:37 PT by github-actions[bot]</sub>
+<sub>Last updated 2026-11-19 23:28 PT by github-actions[bot]</sub>
 <!-- updated:end -->
