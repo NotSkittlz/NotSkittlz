@@ -16,11 +16,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 | Processes:                                                                              |
 |  PR#     Type   Process name                                     Memory (lines +/-)     |
 |=========================================================================================|
-|  #616    C      recursion                                                   +6 / -6     |
-|  #573    C      recursion                                                 +152 / -2     |
-|  #374    C      recursion                                               +2231 / -63     |
-|  #589    C      recursion                                                +1442 / -2     |
-|  #516    C      recursion                                                 +193 / -7     |
+|  #646    C      recursion                                                 +433 / -7     |
+|  #649    C      recursion                                                 +459 / -3     |
+|  #617    C      recursion                                                 +18 / -18     |
+|  #640    C      recursion                                                 +377 / -0     |
+|  #595    C      recursion                                                +3166 / -3     |
 +-----------------------------------------------------------------------------------------+
 ```
 <!-- smi:end -->
@@ -34,11 +34,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 <!-- csl:start -->
 ```console
 $ tail -f /var/log/csl.log
-[2026-11-25 23:17] recursion: merged #616 Agent (Claude Code SWEEP, for Lucas): CSL-238 comments that cite a decision now carry a role and a date
-[2026-11-25 23:05] recursion: merged #573 Agent (Claude Code EVAL, for Lucas): CSL-238 read txtar markers on CRLF lines and keep eval txtar files LF
-[2026-11-25 21:39] recursion: merged #374 Agent (Claude Code PLUGIN-SIGN, for Lucas): CSL-238 plugin manifest version 1 beside vNext; grants bound to the developer key, normal form, ports, no raw IP
-[2026-11-25 18:28] recursion: merged #589 Agent (Claude Code SETTINGS, for Lucas): CSL-238 a person's own settings in one owner-only file, each value with its default and shown with its source
-[2026-11-25 16:09] recursion: merged #516 Agent (Grok Build SPINE, for Lucas): CSL-238 a grant may name the developer key it is bound to
+[2026-11-26 12:39] recursion: merged #646 Agent (Claude Code SETTINGS, for Lucas): CSL-238 settings tests take their expected rows from the registry
+[2026-11-26 12:27] recursion: merged #649 Agent (Claude Code CI, for Lucas): CSL-238 the hosted gate installs the signature backend, so the tests that sign a plugin package run there
+[2026-11-26 02:38] recursion: merged #617 Agent (Claude Code SWEEP, for Lucas): CSL-238 documents and comments outside core and tools cite a decision by role and date
+[2026-11-26 02:25] recursion: merged #640 Agent (Claude Code STOP, for Lucas): CSL-238 Stop is pinned against a grandchild that left its session
+[2026-11-26 02:11] recursion: merged #595 Agent (Claude Code PLUGIN-HOST, for Lucas): CSL-238 one message schema carries every call between the daemon and a plugin host
 [2026-11-18 18:26] ai-investment-cockpit: merged #341 Agent (Claude Code COCKPIT, for Lucas): feat(CSL-238): spine session and route consumer refuse uncorrelated, non-finite and malformed-contract inputs
 [2026-11-18 18:06] ai-investment-cockpit: merged #334 Agent (Claude Code COCKPIT, for Lucas): feat(CSL-238): a replace's total is converted once to the size the book rests
 [2026-11-18 17:45] ai-investment-cockpit: merged #337 Agent (Claude Code COCKPIT, for Lucas): feat(CSL-238): PUT /limits reads, classifies, disarms and appends under one lock (W2)
@@ -61,5 +61,5 @@ $ tail -f /var/log/csl.log
 ---
 
 <!-- updated:start -->
-<sub>Last updated 2026-11-26 00:34 PT by github-actions[bot]</sub>
+<sub>Last updated 2026-11-26 13:41 PT by github-actions[bot]</sub>
 <!-- updated:end -->
