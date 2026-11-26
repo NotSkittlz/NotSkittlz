@@ -16,11 +16,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 | Processes:                                                                              |
 |  PR#     Type   Process name                                     Memory (lines +/-)     |
 |=========================================================================================|
-|  #431    C      recursion                                                 +513 / -9     |
-|  #418    C      recursion                                                  +61 / -3     |
-|  #441    C      recursion                                                 +566 / -9     |
-|  #439    C      recursion                                                  +34 / -0     |
-|  #599    C      recursion                                                  +52 / -4     |
+|  #616    C      recursion                                                   +6 / -6     |
+|  #573    C      recursion                                                 +152 / -2     |
+|  #374    C      recursion                                               +2231 / -63     |
+|  #589    C      recursion                                                +1442 / -2     |
+|  #516    C      recursion                                                 +193 / -7     |
 +-----------------------------------------------------------------------------------------+
 ```
 <!-- smi:end -->
@@ -34,11 +34,11 @@ Physics + Applied Math @ UC Berkeley. I build AI systems from CUDA kernels up to
 <!-- csl:start -->
 ```console
 $ tail -f /var/log/csl.log
-[2026-11-23 23:59] recursion: merged #431 Agent (Claude Code EVAL, for Lucas): CSL-238 EVAL round-6 follow-up to #381: caller settings, machine git failures, file names, scratch bases
-[2026-11-23 23:48] recursion: merged #418 Agent (Claude Code STOP, for Lucas): CSL-238: lane STOP, the racing-reconcile test's stand-in takes both call forms of the starter
-[2026-11-23 21:46] recursion: merged #441 Agent (Claude Code EVENTS, for Lucas): CSL-238 events/db.py: a transaction stays its owner's through interruptions (sweep triage, Draft 1)
-[2026-11-23 21:15] recursion: merged #439 Agent (Claude Code DESKTOP, for Lucas): CSL-238 desktop app: two regression tests from the last read of #390
-[2026-11-19 17:49] recursion: merged #599 Agent (Claude Code SIMWIN, for Lucas): CSL-238 the simulated Windows step runs the tests of every tests folder under the core
+[2026-11-25 23:17] recursion: merged #616 Agent (Claude Code SWEEP, for Lucas): CSL-238 comments that cite a decision now carry a role and a date
+[2026-11-25 23:05] recursion: merged #573 Agent (Claude Code EVAL, for Lucas): CSL-238 read txtar markers on CRLF lines and keep eval txtar files LF
+[2026-11-25 21:39] recursion: merged #374 Agent (Claude Code PLUGIN-SIGN, for Lucas): CSL-238 plugin manifest version 1 beside vNext; grants bound to the developer key, normal form, ports, no raw IP
+[2026-11-25 18:28] recursion: merged #589 Agent (Claude Code SETTINGS, for Lucas): CSL-238 a person's own settings in one owner-only file, each value with its default and shown with its source
+[2026-11-25 16:09] recursion: merged #516 Agent (Grok Build SPINE, for Lucas): CSL-238 a grant may name the developer key it is bound to
 [2026-11-18 18:26] ai-investment-cockpit: merged #341 Agent (Claude Code COCKPIT, for Lucas): feat(CSL-238): spine session and route consumer refuse uncorrelated, non-finite and malformed-contract inputs
 [2026-11-18 18:06] ai-investment-cockpit: merged #334 Agent (Claude Code COCKPIT, for Lucas): feat(CSL-238): a replace's total is converted once to the size the book rests
 [2026-11-18 17:45] ai-investment-cockpit: merged #337 Agent (Claude Code COCKPIT, for Lucas): feat(CSL-238): PUT /limits reads, classifies, disarms and appends under one lock (W2)
@@ -61,5 +61,5 @@ $ tail -f /var/log/csl.log
 ---
 
 <!-- updated:start -->
-<sub>Last updated 2026-11-24 02:03 PT by github-actions[bot]</sub>
+<sub>Last updated 2026-11-26 00:34 PT by github-actions[bot]</sub>
 <!-- updated:end -->
